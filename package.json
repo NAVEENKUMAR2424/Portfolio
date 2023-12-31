@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@sendgrid/mail": "^8.1.0",
+    "emailjs": "^4.0.3",
+    "nodemailer": "^6.9.8"
+  }
+}
