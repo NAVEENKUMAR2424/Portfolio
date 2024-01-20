@@ -1,0 +1,46 @@
+.free{
+    display: flex; 
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 767px) {
+.navbar{
+    position: relative;
+}
+
+.ph{
+    display: flex;
+    flex-direction: column;
+}
+.phw{
+    display: flex;
+    flex-direction: column;
+}
+.vid{
+    display: none;
+    flex-direction: column;
+}
+.head{
+    justify-content: center;
+}
+#resume{
+    display: flex;
+    flex-direction: column;
+}
+.free{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+@media (min-width: 1200px){
+
+ .container {
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    }
+}
