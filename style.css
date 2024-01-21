@@ -43,7 +43,11 @@ body,html{
 #profileimg{
     display: none;
 }
-
+.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
 }
 
 @media (min-width: 1200px){
